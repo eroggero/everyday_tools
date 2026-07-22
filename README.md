@@ -67,11 +67,10 @@ The basic script only uses the Python standard library.
 
 ## Installation
 Clone the repository and install the Python dependencies:
-    git clone https://github.com/yourusername/everyday_tools.git
+    git clone https://github.com/eroggero/everyday_tools.git
     cd everyday_tools
     pip install -r requirements.txt
-Some scripts also require MKVToolNix. On Windows, the default installation directory is usually:
-    C:\Program Files\MKVToolNix\
+Some scripts also require MKVToolNix. On Windows, the default installation directory is usually: C:\Program Files\MKVToolNix\
 
 ## Usage
 The scripts are run individually. In most cases, the directory to process is configured directly in the script.
@@ -99,3 +98,4 @@ MKVToolNix is needed for the scripts that inspect, extract, or embed MKV subtitl
 - The M2M100 model is downloaded the first time the translator is run and can take up around 1.5 GB of disk space.
 - Some scripts rename files and folders. Check the paths before running them.
 - A CUDA-compatible GPU makes a big difference when translating large numbers of subtitles.
+  
